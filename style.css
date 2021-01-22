@@ -373,10 +373,11 @@ p {
   
   footer ul {
     list-style-type: none;
-    width: 18.75rem;
-    margin-top: 1rem;	
+    width: 23.75rem;
+    margin-top: 3rem;
   }
   
   footer li {
+    font-size: 14px;
     margin-bottom: 1rem;
   }
