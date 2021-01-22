@@ -361,26 +361,22 @@ p {
 
   /*  FOOTER  */
 
-  footer 
-  {
-    font-weight: 300;
+  footer {
+    font-weight: 200;
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
     background-color: #F2F2F2;
     margin-top: 2rem;
-    min-width: 83rem;
   
   }
   
-  footer ul
-  {
+  footer ul {
     list-style-type: none;
     width: 18.75rem;
     margin-top: 1rem;	
   }
   
-  footer li
-  {
-    margin-bottom: 0.6rem;
+  footer li {
+    margin-bottom: 1rem;
   }
