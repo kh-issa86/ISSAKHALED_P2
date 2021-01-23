@@ -322,9 +322,7 @@ p {
 #image9 {
   background-image: url("./Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
 }
-#image10 {
-  background-image: url("./Images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-}
+
 
 #image11 {
   background-image: url("./Images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
@@ -383,8 +381,33 @@ p {
 
   flex-wrap: wrap;
 }
+#activities h1 {
+  width: 100%;
+  margin: 3rem 0rem 2rem;
+  width: 100%;
+}
+.image-activity-tall {
+  height: 22rem;
+  width:100%;
+  object-fit: none;
+}
+.image-activity-short {
+  height: 9rem;
+  width:100%;
+  object-fit: none;
 
-#left,
+}
+.activities-content {
+  display: flex;
+}
+.activity-column{
+  width:25%;
+  padding: 5px;
+}
+.activity-item {
+  /* height: 50%; */
+}
+/* #left,
 #right {
   display: flex;
   justify-content: space-around;
@@ -452,7 +475,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
 /*  FOOTER  */
 
