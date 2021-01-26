@@ -1,5 +1,6 @@
 * {
   font-family: "Raleway", sans-serif;
+  margin: 0;
 }
 body {
   margin: 0px 5px 0px 5px;
@@ -57,9 +58,14 @@ p {
 }
 
 .navbar-item:hover {
-  color: blue;
+  color: #0065FC;
   border-top: solid rgb(8, 0, 167) 2px;
 }
+#inscription {
+  font-weight: 600;
+  color: #0065FC;
+}
+
 
 /* Filter & Search */
 
@@ -68,7 +74,7 @@ p {
   display: flex;
   width: 3.125rem;
   height: 2.5rem;
-  background-color: #d0d0d0;
+  background-color: #F2F2F2;
   border-radius: 0.9rem 0rem 0rem 0.9rem;
   align-items: center;
   justify-content: space-around;
@@ -112,6 +118,7 @@ p {
   justify-content: space-round;
   margin-top: 10px;
   width: 80%;
+  font-weight: 500;
 }
 
 .filter-title {
@@ -134,7 +141,7 @@ p {
 }
 
 .filter-item:hover {
-  border: solid blue 1px;
+  border: solid #0065FC 1px;
   cursor: pointer;
 }
 
@@ -144,6 +151,8 @@ p {
   background-color: #deebff;
   border-radius: 50%;
   padding: 10px;
+  margin-right: 7px;
+
 }
 #info {
   display: flex;
@@ -180,7 +189,7 @@ p {
   display: flex;
   justify-content: space-between;
   width: 49rem;
-  height: 30rem;
+  height: 100%;
   flex-wrap: wrap;
   border-radius: 12px;
   padding: 20px;
@@ -192,7 +201,7 @@ p {
   display: flex;
   justify-content: space-between;
   width: 19rem;
-  height: 30rem;
+  min-height: 100%;
   border-radius: 12px;
   padding: 20px;
   flex-direction: column;
@@ -215,7 +224,7 @@ p {
   flex-wrap: wrap;
   margin: 1rem;
   background-color: white;
-  box-shadow: 0.6rem 0.06rem 0.3rem 0rem #e0e0e0;
+  box-shadow: 0rem 0rem 1rem 0.2rem #e0e0e0;
 }
 
 .leftgrid-title-footer {
@@ -258,7 +267,7 @@ p {
   text-decoration: none;
   background-color: #fff;
   border-radius: 1rem;
-  box-shadow: 0.6rem 0.06rem 0.3rem 0rem #e0e0e0;
+  box-shadow: 0rem 0rem 1rem 0.2rem #e0e0e0;
 }
 
 /* Images */
@@ -322,7 +331,9 @@ p {
 #image9 {
   background-image: url("./Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
 }
-
+#image10 {
+  background-image: url("./Images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+}
 
 #image11 {
   background-image: url("./Images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
@@ -333,7 +344,7 @@ p {
 #image13 {
   background-image: url("./Images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
 }
-#imag14 {
+#image14 {
   background-image: url("./Images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
 }
 #image15 {
@@ -354,7 +365,7 @@ p {
 }
 
 .stars {
-  color: blue;
+  color: #0065FC;
 }
 .gray {
   color: lightgray;
@@ -376,106 +387,142 @@ p {
 
 /* activities */
 
-#activities {
-  display: flex;
 
-  flex-wrap: wrap;
+.activities-section {
+  margin-top: 3rem;
 }
-#activities h1 {
-  width: 100%;
-  margin: 3rem 0rem 2rem;
-  width: 100%;
+
+.activities-container {
+  height: 26rem;
+  display: grid;
+  grid-template-columns: 25% 1fr 25% 1fr;
+  align-items: end;
 }
-.image-activity-tall {
-  height: 22rem;
-  width:100%;
-  object-fit: none;
+
+
+.act1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
-.image-activity-short {
+
+
+
+.act3 {
+  grid-column-start: 2;
+  grid-row-end: 3;
+
+}
+
+.act4 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.act5 {
+
+}
+
+.act6 {
+
+}
+.act1, .act4  {
+    width: 16rem;
+    height: 25rem;
+    border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+    box-shadow: 0rem 0rem 1rem 0.2rem #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.act2, .act3 {
+  width: 16rem;
   height: 9rem;
-  width:100%;
-  object-fit: none;
-
-}
-.activities-content {
+  border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+  box-shadow: 0rem 0rem 1rem 0.2rem #e0e0e0;
   display: flex;
+  flex-direction: column;
+  text-decoration: none;
 }
-.activity-column{
-  width:25%;
-  padding: 5px;
+.act2 {
+  align-self: baseline;
+  height: 13rem;
+  margin-top: 16px;
 }
-.activity-item {
-  /* height: 50%; */
-}
-/* #left,
-#right {
+.act5, .act6 {
+  width: 16rem;
+  height: 11.5;
+  border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
+  box-shadow: 0rem 0rem 1rem 0.2rem #e0e0e0;
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 2rem;
-  width: 37rem;
+  flex-direction: column;
+  text-decoration: none;
 }
-
-.text {
-  width: 100%;
-  height: 3rem;
+.act5 {
+  align-self: flex-start;
+  margin-top: 18px;
+  height: 13rem;
+}
+#texte10, #texte11, #texte12, #texte13, #texte14, #texte15 {
+  margin: 10px;
   border-radius: 0rem 0rem 0.9rem 0.9rem;
-  background-color: #fff;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-
-.bigleft {
-  width: 19rem;
-  height: 25rem;
-  border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
-  box-shadow: 0.6rem 0.06rem 0.3rem 0rem #e0e0e0;
-  display: flex;
-  flex-direction: column;
+.activities a {
   text-decoration: none;
-  background-color: blue;
-}
-.small-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  font-weight: 700;
+  font-size: 11px;
+  color: #000000;
 }
 
-#activities h1 {
-  width: 100%;
-  margin: 3rem 0rem 2rem;
-  width: 100%;
-}
+
+
 
 #image10,
 #image13 {
-  height: 22rem;
+  height: 22.4rem;
+  width: 100%;
+    border-radius: 0.9rem 0.9rem 0rem 0.0rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#image11, #image12 {
+  height: 6rem;
+  width: 100%;
+    border-radius: 0.9rem 0.9rem 0rem 0.0rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #image11 {
   height: 11rem;
 }
 #image12 {
-  height: 5rem;
-}
-#image14 {
-  height: 8rem;
-}
-#image15 {
-  height: 9rem;
+  height: 6.5rem;
 }
 
-#image10,
-#image11,
-#image12,
-#image13,
-#image14,
-#image15 {
+#image14, #image15 {
+  height: 8.5rem;
   width: 100%;
-  border-radius: 0.9rem 0.9rem 0rem 0rem;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} */
+    border-radius: 0.9rem 0.9rem 0rem 0.0rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#image13 {
+  height: 22.7rem;
+}
+#image14 {
+  height: 10.5rem;
+}
+
+
+
+
+
 
 /*  FOOTER  */
 
@@ -498,4 +545,7 @@ footer ul {
 footer li {
   font-size: 14px;
   margin-bottom: 1rem;
+}
+footer h4 {
+  margin-bottom: 10px;
 }
