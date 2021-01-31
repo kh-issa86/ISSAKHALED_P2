@@ -404,6 +404,7 @@ h1 {
 .legendleft p {
   margin: 2px;
   color: gray;
+  font-size: 13px;
 }
 
 .stars {
@@ -921,7 +922,7 @@ footer {
   width: 32rem;
 }
 }
-@media only screen and (max-width:1022px) and (min-width:400px) {
+@media only screen and (max-width:1022px) and (min-width:750px) {
   
   .legendleft {
     font-size: 7px;
