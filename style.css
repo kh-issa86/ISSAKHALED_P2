@@ -330,7 +330,6 @@ h1 {
   border-radius: 0.9rem 0.9rem 0rem 0rem;
   background-size: cover;
   background-position: center;
-  background-repeat: no;
 }
 
 #image7,
@@ -494,7 +493,7 @@ h1 {
 }
 .act5, .act6 {
   width: 85%;
-  height: 11.5;
+  height: 10.3rem;
   border-radius: 0.9rem 0.9rem 0.9rem 0.9rem;
   box-shadow: 0rem 0rem 1rem 0.2rem #e0e0e0;
   display: flex;
@@ -549,7 +548,7 @@ h1 {
 }
 
 #image14, #image15 {
-  height: 8.5rem;
+  height: 8.1rem;
   width: 100%;
   border-radius: 0.9rem 0.9rem 0rem 0.0rem;
   background-size: cover;
@@ -775,7 +774,6 @@ footer h4 {
   }
   .legendright {
     font-size: 13px;
-  
   }
   
   
@@ -795,10 +793,8 @@ footer h4 {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 1rem;
-    background-color: white;
     box-shadow: 0rem 0rem 1rem 0.2rem #e0e0e0;
     cursor: pointer;
-  
   }
   
   .leftgrid-title-footer {
