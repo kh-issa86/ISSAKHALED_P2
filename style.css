@@ -1343,9 +1343,8 @@ footer li {
   /* footer */
 
 footer { 
-  width: 100%;
-  text-align: center;
-  justify-content: center;
+  width: 32rem;
+  
 }
 footer li:first-child { 
   font-weight: bold;
