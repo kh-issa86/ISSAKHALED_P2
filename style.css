@@ -17,13 +17,16 @@ body {
   flex-direction: column;
   padding: 0rem 0.8rem 0rem 0.8rem;
 }
-
-header {
+.desktop-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+.mobile-header {
+  display: none;
+}
+
 
 h1,
 p {
@@ -1012,6 +1015,37 @@ footer li {
     flex-direction: column;
     padding: 0rem 0.8rem 0rem 0.8rem;
     }
+    .desktop-header {
+      display: none;
+      }
+  
+    .mobile-header {
+      display: grid;
+      width: 32rem;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    #logo {
+      padding-left: 1.5rem;
+    }
+  #inscription {
+    justify-self: end;
+    align-self: center;
+    padding-right: 2rem;
+    font-size: 20px;
+  }
+  .mobnav {
+    font-weight: 400;
+    font-size: 21px;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: 4px solid lightgray;
+  
+  
+  }
+  
     /* search header */
   
     #marker {
