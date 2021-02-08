@@ -975,7 +975,9 @@ footer h4 {
     min-width: 27.5rem;
     display: flex;
     flex-direction: column;
-    padding: 0rem 0.8rem 0rem 0.8rem;
+    margin: 0rem;
+    padding: 0rem;
+
   }
   .desktop-header {
     display: none;
@@ -986,6 +988,8 @@ footer h4 {
     width: 32rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 1rem;
+
   }
   #logo {
     padding-left: 1.5rem;
@@ -1010,6 +1014,9 @@ footer h4 {
   }
 
   /* search header */
+  .search {
+    margin-left: 1.5rem;
+}
 
   #marker {
     font-size: 1rem;
@@ -1050,7 +1057,9 @@ footer h4 {
   .search-button {
     display: none;
   }
-
+  .search-header {
+    margin: 1.5rem;
+  }
   .search-header h1 {
     font-size: 28px;
     font-weight: 600;
@@ -1061,13 +1070,21 @@ footer h4 {
 
   /* filtres */
 
+  .filterbar {
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 20px 0px 10px 15px;
+    width: 100%;
+    font-weight: 600;
+  }
+
   .filter-title {
     width: 100%;
     justify-content: start;
     display: flex;
     align-items: center;
     align-content: flex-end;
-    padding-right: 30px;
+    padding: 1rem;
   }
   .filter-item {
     margin: 5px;
@@ -1094,6 +1111,11 @@ footer h4 {
     margin-right: 7px;
     font-size: 21px;
   }
+  #info {
+    display: flex;
+    margin: 15px 0px 20px 15px;
+    width: 100%;
+}
   #info p {
     display: flex;
     margin-top: 4px;
@@ -1120,22 +1142,26 @@ footer h4 {
 
   .populaires {
     display: grid;
-    width: 27rem;
+    width: 32rem;
     grid-template-columns: 1fr;
     grid-template-rows: 75px 1fr 1fr 1fr;
     background-color: #f2f2f2;
-    border-radius: 0.9rem;
     align-items: center;
     justify-items: center;
-    padding-bottom: 16px;
+    padding-bottom: 4rem;
     grid-row-start: 1;
     grid-row-end: 1;
     grid-gap: 1.5rem;
+    border-radius: 0;
+  }
+  #image8 {
+    width: 13.8rem;
+
   }
 
   .left-title {
     margin: 20px;
-    font-size: 19px;
+    font-size: 25px;
     grid-column-start: 1;
     grid-column-end: 1;
   }
@@ -1147,7 +1173,7 @@ footer h4 {
   }
   .right-title {
     display: flex;
-    font-size: 16px;
+    font-size: 25px;
     justify-self: start;
     margin: 3rem 0rem 0rem 2rem;
   }
@@ -1167,7 +1193,7 @@ footer h4 {
   #box5,
   #box6,
   #box7 {
-    width: 23rem;
+    width: 27rem;
     height: 13rem;
     border: 0.2rem white solid;
     border-radius: 0.9rem;
@@ -1205,14 +1231,15 @@ footer h4 {
   }
 
   .fa-chart-line {
-    font-size: 21px;
-    margin-left: 10rem;
+    font-size: 25px;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
   }
   .box-r1,
   .box-r2,
   .box-r3 {
-    width: 23rem;
-    height: 9.5rem;
+    width: 28rem;
+    height: 11rem;
     align-items: center;
     border: 0.2rem #ffffff solid;
     border-radius: 0.9rem;
@@ -1232,7 +1259,7 @@ footer h4 {
   .activities-container {
     height: 100%;
     display: grid;
-    width: 27rem;
+    width: 32rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: end;
@@ -1240,6 +1267,7 @@ footer h4 {
     align-items: center;
     justify-items: center;
   }
+
   .activities-grid {
     height: 100%;
     display: grid;
@@ -1248,40 +1276,48 @@ footer h4 {
     grid-gap: 10px;
   }
 
+  .activities-title h1 {
+    font-size: 25px;
+    padding: 2rem;
+
+  }
+
   .act-item3 {
     grid-row: 3;
   }
   .act1 {
     grid-row: 1;
     height: 14rem;
-    width: 23rem;
+    width: 28rem;
+
   }
   .act2 {
     grid-row: 2;
     height: 14rem;
-    width: 23rem;
+    width: 28rem;
+
   }
 
   .act3 {
     grid-column: 1;
     grid-row: 3;
     height: 14rem;
-    width: 23rem;
+    width: 28rem;
   }
   .act4 {
     grid-row: 4;
     height: 14rem;
-    width: 23rem;
+    width: 28rem;
   }
   .act5 {
     grid-row: 5;
     height: 14rem;
-    width: 23rem;
+    width: 28rem;
   }
   .act6 {
     grid-row: 6;
     height: 14rem;
-    width: 23rem;
+    width: 28rem;
   }
 
   #image10,
