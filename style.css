@@ -951,9 +951,9 @@ footer h4 {
     width: 31rem;
 }
   #container {
-    max-width: 90rem;
+    /* max-width: 90rem;
     min-width: 27.5rem;
-    display: flex;
+    display: flex; */
     flex-direction: column;
     margin: 0rem;
     padding: 0rem;
