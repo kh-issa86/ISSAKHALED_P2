@@ -35,7 +35,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-#logo {
+.logo {
   height: 1rem;
   margin-bottom: 20px;
   margin: 1rem 0rem 2rem 0rem;
@@ -65,7 +65,7 @@ h1 {
   border-top: solid #0065fc 2px;
 }
 
-#inscription {
+.inscription {
   font-weight: 600;
   color: #0065fc;
   margin-right: 0rem;
@@ -450,6 +450,7 @@ h1 {
   display: grid;
   grid-template-columns: 25% 1fr 25% 1fr;
   align-items: end;
+  justify-items: center;
   margin-top: 1rem;
 }
 
@@ -530,6 +531,8 @@ h1 {
 
 .activities-title h1 {
   font-size: 18px;
+  padding-left: 1.5rem;
+
 }
 
 /*  FOOTER  */
@@ -770,7 +773,6 @@ footer h4 {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 1rem;
-    background-color: white;
     box-shadow: 0rem 0rem 1rem 0.2rem #e0e0e0;
     cursor: pointer;
   }
@@ -961,11 +963,11 @@ footer h4 {
     margin-bottom: 1rem;
   }
 
-  #logo {
+  .logo {
     padding-left: 1.5rem;
   }
 
-  #inscription {
+  .inscription {
     justify-self: end;
     align-self: center;
     padding-right: 2rem;
