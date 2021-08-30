@@ -9,7 +9,7 @@ Elements provided by the virtual company.
     The colors are: blue # 0065FC - light blue #DEEBFF - gray # F2F2F2
     The font is "Raleway"
 
-Specifications
+## Specifications
 
     -The integration must be done in HTML5 & CSS3, without framework (bootstrap for example)
     -The search field must be an input field, the text of which can be edited. However, 
