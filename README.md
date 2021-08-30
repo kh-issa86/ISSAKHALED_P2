@@ -1,4 +1,4 @@
-### Reservia
+###Reservia
 
 Second project of the web developer training at OpenClassrooms.
 
