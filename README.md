@@ -1,6 +1,5 @@
-###Reservia
-
-Second project of the web developer training at OpenClassrooms.
+# Project 2 at OpenClassrooms - web developer: Turn a mockup into a website 
+***
 
 The objective is to integrate the model of a vacancy planning site named "Reservia" 
 Elements provided by the virtual company.
